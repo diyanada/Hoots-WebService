@@ -1,0 +1,132 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	/*background:#E9E9E9;*/
+	/*background: #E9E9E9 url(../img/bg.jpg) no-repeat top center fixed;*/
+}
+.div_box {
+	height: 250px;
+	width: 150px;
+	margin:10px;
+	border-style: solid;
+    border-color:#000000;
+	float:left;
+}
+.img{
+	width:130px;
+	height:auto;
+	max-height:150px;
+	position: relative;
+	margin:10px 10px;
+}
+
+#body {
+	width: 1024px;
+	background:#FFF;
+	position: relative;
+	background-size:1024px 800px;
+	padding-bottom:25px;
+}
+#body_frame {
+	width: 680px;
+	background:#FFF;
+	position: relative;
+	margin-right:auto;
+	background-size:1024px 800px;
+	padding-bottom:25px;
+}
+#supplier {
+    max-width: 338px;
+    width: 338px !important;
+}
+
+#input_table
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 12px;
+	margin-bottom: 45px;
+	width: 95%;
+	text-align: center;
+	border-collapse: collapse;
+	border: 1px solid #69c;
+}
+#input_table th
+{
+	padding: 10px 17px 10px 17px;
+	font-weight: bolder;
+	font-size: 14px;
+	color: #039;
+	border-bottom: 1px dashed #69c;
+}
+#input_table td
+{
+	padding: 7px 17px 7px 17px;
+	font-weight: lighter;
+	font-size: 12px;
+	text-align:left;
+	color: #039;
+	
+}
+#input_table tr:hover td
+{
+	color: #339;
+	background: #DFEFFF;
+}
+#input_table tfoot th, tfoot td{
+	border-top: 1px double #999999;
+	font-family: Bookman, serif;
+	font-style:italic;
+	font-size:12px;
+	color:#333333;
+}
+
+#button_style{
+	background:#1671ba;
+	color:#ffffff;
+	border-radius: 0px;
+	border-color:#ffffff;
+}
+#button_style:hover{
+	background:#1671ba;
+	color:#ffffff;
+	border-radius: 0px;
+	border-color:#ffffff;
+}
+#report_table
+{
+font-family:"Times New Roman", Times, serif;;
+width:95%;
+border-collapse:collapse;
+}
+#report_table td, #report_table th 
+{
+font-size:14px;
+border:1px solid #1671ba;
+padding:3px 7px 2px 7px;
+}
+#report_table th 
+{
+font-size:16px;
+text-align:left;
+padding-top:5px;
+padding-bottom:4px;
+background-color:#1671ba;
+color:#E1F0FF;
+}
+
+#report_table tr:hover
+{
+background-color:#E1E1FF;
+}
+
+#report_table tr.alt td 
+{
+color:#000000;
+background-color:#ffffff;
+}
+
+#spriner{
+	display:none;
+}
